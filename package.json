@@ -1,0 +1,23 @@
+{
+    "name": "node-red-bio-reactor",
+    "description": "node red code for bio reactor",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-1wire": "0.0.1",
+        "node-red-contrib-anolog-to-digital-converter-raspberry-pi": "0.4.25",
+        "node-red-contrib-camerapi": "0.0.39",
+        "node-red-contrib-i2c-motorhat": "0.1.1",
+        "node-red-contrib-loop-processing": "0.5.1",
+        "node-red-contrib-os": "0.2.0",
+        "node-red-dashboard": "2.29.1",
+        "node-red-node-pi-gpio": "1.2.3",
+        "node-red-node-sqlite": "1.0.1",
+        "node-red-node-ui-table": "0.3.11"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_bio_reactor.json",
+            "credentialsFile": "flows_bio_reactor_cred.json"
+        }
+    }
+}
