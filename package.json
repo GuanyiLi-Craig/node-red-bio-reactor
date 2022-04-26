@@ -1,0 +1,12 @@
+{
+    "name": "node-red-bio-reactor",
+    "description": "node red code for bio reactor",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_bio_reactor.json",
+            "credentialsFile": "flows_bio_reactor_cred.json"
+        }
+    }
+}
