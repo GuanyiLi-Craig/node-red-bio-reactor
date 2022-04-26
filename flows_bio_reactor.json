@@ -7,13 +7,6 @@
         "info": ""
     },
     {
-        "id": "ec4e0291.97026",
-        "type": "tab",
-        "label": "Bio Reactor II",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "d94ff7d1.d82588",
         "type": "subflow",
         "name": "Temp Device",
